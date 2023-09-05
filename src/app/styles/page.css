@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;900&family=Poppins:wght@400;500;600;700;900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', 'Poppins';
+
+}
+body{
+    font-family: 'Montserrat', 'Poppins';
+
+}
+.container_all{
+    /* background-color: #222831; */
+    height: 300vh;
+ 
+}
+.introduce{
+    
+    margin-top: 40px;
+    padding:10px 15px;
+
+}
+.introduce .introduce-div{
+    width: 360px;
+}
+.introduce-Welcome{
+    letter-spacing: 2px;
+
+
+}
+ 
+.introduce-h1{
+    font-size: 30px;
+    font-family: 'Montserrat', 'Poppins';
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.introduce-detail{
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.7px;
+    font-family: 'Montserrat', 'Poppins';
+    opacity: 0.8;
+}
+.introduce-div{
+    width: 300px;
+}
+.introduce-div-finfMe{
+    display: block;
+    margin: 0px 0px 40px 0px;
+
+}
+.introduce-div-finfMe > p{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', 'Poppins';
+
+}
+ 
+.introduce .Box_Link{
+    width: 70px;
+    height: 50px;
+    padding: 10px 12px;
+    border: 1px solid #212121;
+    border-radius: 6px;
+    box-shadow: -10px -10px 19px 0px #262A2E, 10px 10px 19px 0px #1C1E22;
+    margin: 10px 10px;
+
+}
