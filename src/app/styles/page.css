@@ -28,25 +28,25 @@ body{
     width: 360px;
 }
 .introduce-Welcome{
-    letter-spacing: 2px;
-
-
+    letter-spacing: 1.3px;
 }
  
 .introduce-h1{
     font-size: 30px;
     font-family: 'Montserrat', 'Poppins';
     margin-bottom: 40px;
-    margin-top: 20px;
+    margin-top: 15px;
     font-weight: bold;
+    letter-spacing: -0.5px;
 }
 .introduce-detail{
     margin-top: 20px;
     font-size: 12px;
     font-weight: 500;
-    letter-spacing: 1.7px;
+    letter-spacing: 0.5px;
     font-family: 'Montserrat', 'Poppins';
     opacity: 0.8;
+    line-height: 1.6;
 }
 .introduce-div{
     width: 300px;
