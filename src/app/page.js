@@ -17,8 +17,8 @@ export default function Home() {
     <>
 
 
-      <main data-bs-theme={darkMode ? 'dark' : 'light'} style={{ backgroundColor: darkMode ? '#212121' : '', color: darkMode ? 'white' : '#212121' }} className='container_all'>
-        <button onClick={() => { setdarkMode(!darkMode) }} style={{ padding: '10px', position: "absolute", right: '0', bottom: '50%', margin: '0px 10px ' }}> <i class="bi bi-sun-fill"></i></button>
+      <main className='container_all'  data-bs-theme={darkMode ? 'dark' : 'light'} style={{ backgroundColor: darkMode ? '#212428' : '', color: darkMode ? 'white' : '#212121' }} >
+        <button className='buttondarkmode' onClick={() => { setdarkMode(!darkMode) }}> <i class="bi bi-sun-fill"></i></button>
         <Nav darkmode={darkMode} />
         <section className='introduce '  >
           <div className=' mx-auto introduce-div'>

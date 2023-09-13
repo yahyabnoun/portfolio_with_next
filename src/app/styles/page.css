@@ -13,44 +13,93 @@ body{
     font-family: 'Montserrat', 'Poppins';
 
 }
+
+ 
+/*  mobile first  */
+
 .container_all{
     /* background-color: #222831; */
     height: 300vh;
+    padding: 5px 10px;
  
 }
-.introduce{
-    
-    margin-top: 40px;
-    padding:10px 15px;
+.container-fluid{
+    padding: 0px!important;
+}
 
+
+
+/*    dark mode   */
+.buttondarkmode{
+    padding: 10px;
+    position: fixed;
+    right: 0;
+    bottom: 50%;
+    margin: 0px 10px
 }
-.introduce .introduce-div{
-    width: 360px;
+
+/*  end  dark mode   */
+
+/*   navbar  */
+.navbar{
+    width: 90%;
+    margin: auto;
 }
+
+/* yahya loge */
+
+a.yahyalogo,
+h5.yahyalogo{
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+.yahyalogo span
+{
+    font-weight:900;
+}
+.yahyalogo{
+    letter-spacing: 0.7px;    
+}
+/* end yahya loge */
+
+/*   end navbar   */
+
+/* introduce section */
+
+
+.introduce{
+    width: 90%;
+    margin: 40px auto;
+}
+
+ 
 .introduce-Welcome{
-    letter-spacing: 1.3px;
+    letter-spacing: 1.2px;
+    margin: 0;
+ 
 }
  
 .introduce-h1{
-    font-size: 30px;
     font-family: 'Montserrat', 'Poppins';
     margin-bottom: 40px;
     margin-top: 15px;
+}
+.introduce-h1 h1{
     font-weight: bold;
     letter-spacing: -0.5px;
+    font-size: 1.6rem;
 }
+
 .introduce-detail{
     margin-top: 20px;
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 14px;
+    font-weight: 600;
     letter-spacing: 0.5px;
     font-family: 'Montserrat', 'Poppins';
-    opacity: 0.8;
+    opacity: 0.85;
     line-height: 1.6;
 }
-.introduce-div{
-    width: 300px;
-}
+
 .introduce-div-finfMe{
     display: block;
     margin: 0px 0px 40px 0px;
@@ -73,3 +122,6 @@ body{
     margin: 10px 10px;
 
 }
+
+
+/* end  introduce section */
