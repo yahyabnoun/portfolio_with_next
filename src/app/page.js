@@ -4,6 +4,7 @@ import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 import Nav from './components/Nav'
 import photo3 from './images/photo3.png'
+import photo1 from './images/1.jpg'
 import Image from 'next/image'
 import Link from 'next/link';
 
@@ -77,12 +78,20 @@ export default function Home() {
             <h2>
                 My Portfolio
             </h2>
+          </div>
+
             <article>
-              <div>
+              <div className='div_project'>
+                  <div>
+                     <Image
+                  src={photo1} className='project_image'
+                  style={{ width: '100%', height: 'auto' }}
+                  alt="Picture of the author"
+                />
+                  </div>
 
               </div>
             </article>
-          </div>
         </section>
       </main>
 

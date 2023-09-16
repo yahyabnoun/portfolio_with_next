@@ -31,11 +31,14 @@ body{
 
 /*    dark mode   */
 .buttondarkmode{
-    padding: 10px;
+    padding: 15px;
     position: fixed;
     right: 0;
+    border-radius: 50px;
+    border: 0px;
     bottom: 50%;
-    margin: 0px 10px
+    margin: 0px 10px;
+
 }
 
 /*  end  dark mode   */
@@ -135,9 +138,33 @@ h5.yahyalogo{
 
 /* .s_projects */
 
+.s_projects{
+    width: 90%;
+    margin: 80px auto;
 
+}
+.s_project_header
+{
+    margin-bottom:   40px ;
+}
 .s_project_header > p{
     font-size: 12px;
     color: #3CB9FF;
     text-align: center;
+}
+
+.s_project_header > h2{
+    text-align: center;
+}
+.div_project{
+    width: 100%;
+    padding: 20px;
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;;
+    border-radius: 20px;
+    border: 1px solid #212428;
+    background: linear-gradient(to right bottom, #212428, #16181c);
+}
+.project_image{
+    width: 100%;
+    border-radius: 20px;
 }
