@@ -69,7 +69,21 @@ export default function Home() {
           </div>
 
         </section>
+        <section className='s_projects'>
+          <div className='s_project_header'>
+            <p>
+                VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
+            </p>
+            <h2>
+                My Portfolio
+            </h2>
+            <article>
+              <div>
 
+              </div>
+            </article>
+          </div>
+        </section>
       </main>
 
     </>
