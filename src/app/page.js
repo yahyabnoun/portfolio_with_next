@@ -8,6 +8,15 @@ import photo1 from './images/1.jpg'
 import Image from 'next/image'
 import Link from 'next/link';
 
+const data =
+  {
+    projects:[
+      {
+        title:"c",
+        img:""
+      }
+    ]
+}
 
 
 export default function Home() {
@@ -89,6 +98,9 @@ export default function Home() {
                   alt="Picture of the author"
                 />
                   </div>
+                  <p>
+                   NFT Dashboard Application Development
+                  </p>
 
               </div>
             </article>
