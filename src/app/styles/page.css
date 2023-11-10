@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;900&family=Poppins:wght@400;500;600;700;900&display=swap');
 
-
+/* main colors : #212428  / blue  #3CB9FF */
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -19,7 +19,6 @@ body{
 
 .container_all{
     /* background-color: #222831; */
-    height: 300vh;
     padding: 5px 10px;
  
 }
@@ -64,7 +63,7 @@ h5.yahyalogo{
 
 /*   end navbar   */
 
-/* introduce section */
+/* introduce section 1*/
 
 
 .introduce{
@@ -124,4 +123,157 @@ h5.yahyalogo{
 }
 
 
-/* end  introduce section */
+/* end  introduce section 1*/
+
+/* end  introduce section 2*/
+
+
+.section2{
+    width: 90%;
+    margin: 80px auto;
+}
+.section2 .header{
+    text-align: center;
+}
+.subtitle{
+    color: #3CB9FF;
+}
+
+.section2 .card-body{
+    padding: 20px 30px;
+}
+
+.section2 .div_tags{
+    margin-bottom: 30px;
+}
+
+.section2 .card_tag{
+    padding: 2px 8px;
+    margin: 0px 3px;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #3CB9FF;
+}
+
+
+/* ----------------- */
+
+
+.section3{
+    width: 90%;
+    margin: 90px auto;
+}
+.section3 .header{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.section3 .Education h3{
+    margin-bottom: 30px;
+}
+.section3 .Education{
+    margin-bottom: 70px;
+}
+.section3 .all_box{
+    padding-left: 30px;
+    border-left: 3px solid #171717 ;
+}
+
+.section3 .box{
+    /* border: 1px solid #1C1E22; */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: -10px -10px 19px 0px #262A2E, 10px 10px 19px 0px #1C1E22;
+    position: relative;
+    margin: 25px 0px;
+}
+.section3 .box::before{
+    content: ' ';
+    border-radius: 50%;
+    background-color: #3CB9FF;
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    left: 0;
+    top: 0;
+    transform: translate(-39px,23px);
+}
+
+.section3 .subTitle-job{
+    font-size: 12px;
+    opacity: 0.7;
+}
+.section3 hr{
+    color:#000000;
+}
+.section3 .description{
+    font-size: 14px;
+    line-height: 1.6;
+    opacity: 0.8;
+}
+
+
+
+
+/* -------------------------------- */
+
+
+@media (min-width: 1200px) {
+    .introduce{
+        width: 80%;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    .introduce .image{
+        width: 600px;
+        grid-column: 2;
+        grid-row: 1/3;
+    }
+    .introduce .introduce-div{
+        width: 600px;
+    }
+    .introduce-Welcome{
+        font-size: 1em;
+        opacity: 0.7;
+    }
+    .introduce-h1 h1{
+        font-size: 2.5em;
+    }
+
+    .introduce .skills{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: start
+    }
+    .introduce .skills .introduce-div-finfMe p{
+        text-align: left;
+    }
+    .introduce .skills .introduce-div-finfMe .Box_Link{
+        width: 50px;
+
+    }
+
+
+
+
+
+
+    /* ---------------------- */
+    .section3 .Resume {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 70px;
+    }
+
+
+
+
+
+
+
+
+
+
+}
