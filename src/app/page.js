@@ -4,9 +4,19 @@ import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 import Nav from './components/Nav'
 import photo3 from './images/photo3.png'
+import photo1 from './images/1.jpg'
 import Image from 'next/image'
 import Link from 'next/link';
 
+const data =
+  {
+    projects:[
+      {
+        title:"c",
+        img:""
+      }
+    ]
+}
 
 
 export default function Home() {
@@ -110,7 +120,17 @@ export default function Home() {
           </div>
 
         </section>
+        <section className='s_projects'>
+          <div className='s_project_header'>
+            <p>
+                VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
+            </p>
+            <h2>
+                My Portfolio
+            </h2>
+          </div>
 
+<<<<<<< HEAD
       <section className='section2'>
         <div className='header'>
           <p className='subtitle'>visit My projects</p>
@@ -223,6 +243,24 @@ export default function Home() {
 
 
 
+=======
+            <article>
+              <div className='div_project'>
+                  <div>
+                     <Image
+                  src={photo1} className='project_image'
+                  style={{ width: '100%', height: 'auto' }}
+                  alt="Picture of the author"
+                />
+                  </div>
+                  <p>
+                   NFT Dashboard Application Development
+                  </p>
+
+              </div>
+            </article>
+        </section>
+>>>>>>> 6443e5880867df4ce387b8ea73233bf4eae751b7
       </main>
 
     </>
