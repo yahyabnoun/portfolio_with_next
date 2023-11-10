@@ -130,7 +130,7 @@ export default function Home() {
             </h2>
           </div>
 
-<<<<<<< HEAD
+
       <section className='section2'>
         <div className='header'>
           <p className='subtitle'>visit My projects</p>
@@ -240,10 +240,6 @@ export default function Home() {
         </div>
       </section>
 
-
-
-
-=======
             <article>
               <div className='div_project'>
                   <div>
@@ -260,7 +256,7 @@ export default function Home() {
               </div>
             </article>
         </section>
->>>>>>> 6443e5880867df4ce387b8ea73233bf4eae751b7
+
       </main>
 
     </>
