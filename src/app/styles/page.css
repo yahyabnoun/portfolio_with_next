@@ -29,17 +29,21 @@ body{
 
 
 /*    dark mode   */
+
 .buttondarkmode{
-    padding: 15px;
     position: fixed;
     right: 0;
     border-radius: 50px;
+    background-color: #00000000;
     border: 0px;
     bottom: 50%;
     margin: 0px 10px;
-
+    width: 35px;
 }
-
+.buttondarkmode svg{
+    width: 100%;
+    height: 100%;
+}
 /*  end  dark mode   */
 
 /*   navbar  */
@@ -117,9 +121,10 @@ h5.yahyalogo{
     font-family: 'Montserrat', 'Poppins';
 
 }
+
  
 .introduce .Box_Link{
-    width: 70px;
+    width: 50px;
     height: 50px;
     padding: 10px 12px;
     border: 1px solid #212121;
@@ -128,7 +133,11 @@ h5.yahyalogo{
     margin: 10px 10px;
 
 }
-
+.introduce .skills .introduce-div-finfMe .Box_Link svg{
+    width: 100%;
+    height:100%;
+    fill: #dadada;
+}
 /* end  introduce section 1*/
 
 /* end  introduce section 2*/
@@ -140,7 +149,13 @@ h5.yahyalogo{
 }
 .section2 .header{
     text-align: center;
+    margin: 60px 0px;
 }
+.section2 .image_project{
+    border-radius: 8px;
+}
+
+
 .subtitle{
     color: #3CB9FF;
 }
@@ -157,8 +172,9 @@ h5.yahyalogo{
     padding: 2px 8px;
     margin: 0px 3px;
     display: inline-block;
-    border-radius: 8px;
+    border-radius: 4px;
     background-color: #3CB9FF;
+    color:#16181c;
 }
 
 
@@ -258,7 +274,7 @@ h5.yahyalogo{
     }
     .introduce .skills .introduce-div-finfMe .Box_Link{
         width: 50px;
-
+        height: auto;
     }
 
 
