@@ -22,9 +22,11 @@ export default function Nav(prop) {
                                     <a className="nav-link active" aria-current="page" href="#">Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Link</a>
+                                    <a className="nav-link" href="#">projects</a>
                                 </li>
-
+                                <li className="nav-item">
+                                    <a className="nav-link" href="#">Resume</a>
+                                </li>
                             </ul>
 
                         </div>
